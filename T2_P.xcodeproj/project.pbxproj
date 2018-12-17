@@ -345,7 +345,7 @@
 			isa = PBXGroup;
 			children = (
 				20A16D6A21C35A5F0076BA47 /* T2_P */,
-				20A16D8521C378550076BA47 /* T2_P_SLIDER_SWITCH */,
+				20A16D8521C378550076BA47 /* T2_P_Slider_Switch */,
 				20131AAB21C3891600DFC2BF /* T2_P_WKWebview */,
 				2013665721C727CC00B87876 /* T2_P_AlertView */,
 				2013667021C72FD100B87876 /* T2_P_ActionSheet */,
@@ -389,7 +389,7 @@
 			path = T2_P;
 			sourceTree = "<group>";
 		};
-		20A16D8521C378550076BA47 /* T2_P_SLIDER_SWITCH */ = {
+		20A16D8521C378550076BA47 /* T2_P_Slider_Switch */ = {
 			isa = PBXGroup;
 			children = (
 				20A16D8621C378550076BA47 /* AppDelegate.swift */,
@@ -400,7 +400,7 @@
 				20A16D9521C378560076BA47 /* Info.plist */,
 				20A16D8D21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodeld */,
 			);
-			path = T2_P_SLIDER_SWITCH;
+			path = T2_P_Slider_Switch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

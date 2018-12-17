@@ -7,15 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20131AAD21C3891600DFC2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20131AAC21C3891600DFC2BF /* AppDelegate.swift */; };
+		20131AAF21C3891600DFC2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20131AAE21C3891600DFC2BF /* ViewController.swift */; };
+		20131AB221C3891600DFC2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20131AB021C3891600DFC2BF /* Main.storyboard */; };
+		20131AB521C3891600DFC2BF /* T2_P_WKWebview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20131AB321C3891600DFC2BF /* T2_P_WKWebview.xcdatamodeld */; };
+		20131AB721C3891600DFC2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20131AB621C3891600DFC2BF /* Assets.xcassets */; };
+		20131ABA21C3891600DFC2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20131AB821C3891600DFC2BF /* LaunchScreen.storyboard */; };
+		2013665921C727CC00B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013665821C727CC00B87876 /* AppDelegate.swift */; };
+		2013665B21C727CC00B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013665A21C727CC00B87876 /* ViewController.swift */; };
+		2013665E21C727CC00B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2013665C21C727CC00B87876 /* Main.storyboard */; };
+		2013666121C727CC00B87876 /* T2_P_AlertView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2013665F21C727CC00B87876 /* T2_P_AlertView.xcdatamodeld */; };
+		2013666321C727CE00B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2013666221C727CE00B87876 /* Assets.xcassets */; };
+		2013666621C727CE00B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2013666421C727CE00B87876 /* LaunchScreen.storyboard */; };
+		2013667221C72FD100B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013667121C72FD100B87876 /* AppDelegate.swift */; };
+		2013667421C72FD100B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013667321C72FD100B87876 /* ViewController.swift */; };
+		2013667721C72FD100B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2013667521C72FD100B87876 /* Main.storyboard */; };
+		2013667A21C72FD100B87876 /* T2_P_ActionSheet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2013667821C72FD100B87876 /* T2_P_ActionSheet.xcdatamodeld */; };
+		2013667C21C72FD200B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2013667B21C72FD200B87876 /* Assets.xcassets */; };
+		2013667F21C72FD200B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2013667D21C72FD200B87876 /* LaunchScreen.storyboard */; };
+		2013668B21C7324100B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013668A21C7324100B87876 /* AppDelegate.swift */; };
+		2013668D21C7324100B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013668C21C7324100B87876 /* ViewController.swift */; };
+		2013669021C7324100B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2013668E21C7324100B87876 /* Main.storyboard */; };
+		2013669321C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2013669121C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodeld */; };
+		2013669521C7324200B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2013669421C7324200B87876 /* Assets.xcassets */; };
+		2013669821C7324200B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2013669621C7324200B87876 /* LaunchScreen.storyboard */; };
+		201366A421C739A500B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366A321C739A500B87876 /* AppDelegate.swift */; };
+		201366A621C739A500B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366A521C739A500B87876 /* ViewController.swift */; };
+		201366A921C739A500B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366A721C739A500B87876 /* Main.storyboard */; };
+		201366AC21C739A500B87876 /* T2_p_Toolbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 201366AA21C739A500B87876 /* T2_p_Toolbar.xcdatamodeld */; };
+		201366AE21C739A700B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201366AD21C739A700B87876 /* Assets.xcassets */; };
+		201366B121C739A700B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366AF21C739A700B87876 /* LaunchScreen.storyboard */; };
+		201366BD21C73D9600B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366BC21C73D9600B87876 /* AppDelegate.swift */; };
+		201366BF21C73D9600B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366BE21C73D9600B87876 /* ViewController.swift */; };
+		201366C221C73D9600B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366C021C73D9600B87876 /* Main.storyboard */; };
+		201366C521C73D9600B87876 /* T2_P_NavigationBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 201366C321C73D9600B87876 /* T2_P_NavigationBar.xcdatamodeld */; };
+		201366C721C73D9700B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201366C621C73D9700B87876 /* Assets.xcassets */; };
+		201366CA21C73D9700B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366C821C73D9700B87876 /* LaunchScreen.storyboard */; };
+		201366D621C745E000B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366D521C745E000B87876 /* AppDelegate.swift */; };
+		201366D821C745E000B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366D721C745E000B87876 /* ViewController.swift */; };
+		201366DB21C745E000B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366D921C745E000B87876 /* Main.storyboard */; };
+		201366DE21C745E000B87876 /* T2_P_DatePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 201366DC21C745E000B87876 /* T2_P_DatePicker.xcdatamodeld */; };
+		201366E021C745E100B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201366DF21C745E100B87876 /* Assets.xcassets */; };
+		201366E321C745E100B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366E121C745E100B87876 /* LaunchScreen.storyboard */; };
+		201366EF21C749D900B87876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366EE21C749D900B87876 /* AppDelegate.swift */; };
+		201366F121C749D900B87876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201366F021C749D900B87876 /* ViewController.swift */; };
+		201366F421C749D900B87876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366F221C749D900B87876 /* Main.storyboard */; };
+		201366F721C749D900B87876 /* T2_P_PickerView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 201366F521C749D900B87876 /* T2_P_PickerView.xcdatamodeld */; };
+		201366F921C749DA00B87876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201366F821C749DA00B87876 /* Assets.xcassets */; };
+		201366FC21C749DA00B87876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201366FA21C749DA00B87876 /* LaunchScreen.storyboard */; };
+		2013670221C74AFD00B87876 /* province_city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2013670121C74AFD00B87876 /* province_city.plist */; };
 		20A16D6C21C35A5F0076BA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A16D6B21C35A5F0076BA47 /* AppDelegate.swift */; };
 		20A16D6E21C35A5F0076BA47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A16D6D21C35A5F0076BA47 /* ViewController.swift */; };
 		20A16D7121C35A5F0076BA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A16D6F21C35A5F0076BA47 /* Main.storyboard */; };
 		20A16D7421C35A5F0076BA47 /* T2_P.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20A16D7221C35A5F0076BA47 /* T2_P.xcdatamodeld */; };
 		20A16D7621C35A600076BA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A16D7521C35A600076BA47 /* Assets.xcassets */; };
 		20A16D7921C35A600076BA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A16D7721C35A600076BA47 /* LaunchScreen.storyboard */; };
+		20A16D8721C378550076BA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A16D8621C378550076BA47 /* AppDelegate.swift */; };
+		20A16D8921C378550076BA47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A16D8821C378550076BA47 /* ViewController.swift */; };
+		20A16D8C21C378550076BA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A16D8A21C378550076BA47 /* Main.storyboard */; };
+		20A16D8F21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20A16D8D21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodeld */; };
+		20A16D9121C378560076BA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A16D9021C378560076BA47 /* Assets.xcassets */; };
+		20A16D9421C378560076BA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A16D9221C378560076BA47 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20131AAA21C3891600DFC2BF /* T2_P_WKWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_WKWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20131AAC21C3891600DFC2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20131AAE21C3891600DFC2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20131AB121C3891600DFC2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20131AB421C3891600DFC2BF /* T2_P_WKWebview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_WKWebview.xcdatamodel; sourceTree = "<group>"; };
+		20131AB621C3891600DFC2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20131AB921C3891600DFC2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20131ABB21C3891600DFC2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2013665621C727CC00B87876 /* T2_P_AlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_AlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2013665821C727CC00B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2013665A21C727CC00B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2013665D21C727CC00B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2013666021C727CC00B87876 /* T2_P_AlertView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_AlertView.xcdatamodel; sourceTree = "<group>"; };
+		2013666221C727CE00B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2013666521C727CE00B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2013666721C727CE00B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2013666F21C72FD100B87876 /* T2_P_ActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_ActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2013667121C72FD100B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2013667321C72FD100B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2013667621C72FD100B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2013667921C72FD100B87876 /* T2_P_ActionSheet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_ActionSheet.xcdatamodel; sourceTree = "<group>"; };
+		2013667B21C72FD200B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2013667E21C72FD200B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2013668021C72FD200B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2013668821C7324100B87876 /* T2_P_ActivityIndicatorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_ActivityIndicatorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2013668A21C7324100B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2013668C21C7324100B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2013668F21C7324100B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2013669221C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_ActivityIndicatorView.xcdatamodel; sourceTree = "<group>"; };
+		2013669421C7324200B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2013669721C7324200B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2013669921C7324200B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201366A121C739A500B87876 /* T2_p_Toolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_p_Toolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201366A321C739A500B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201366A521C739A500B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201366A821C739A500B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201366AB21C739A500B87876 /* T2_p_Toolbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_p_Toolbar.xcdatamodel; sourceTree = "<group>"; };
+		201366AD21C739A700B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201366B021C739A700B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201366B221C739A700B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201366BA21C73D9600B87876 /* T2_P_NavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_NavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201366BC21C73D9600B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201366BE21C73D9600B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201366C121C73D9600B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201366C421C73D9600B87876 /* T2_P_NavigationBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_NavigationBar.xcdatamodel; sourceTree = "<group>"; };
+		201366C621C73D9700B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201366C921C73D9700B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201366CB21C73D9700B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201366D321C745E000B87876 /* T2_P_DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201366D521C745E000B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201366D721C745E000B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201366DA21C745E000B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201366DD21C745E000B87876 /* T2_P_DatePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_DatePicker.xcdatamodel; sourceTree = "<group>"; };
+		201366DF21C745E100B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201366E221C745E100B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201366E421C745E100B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201366EC21C749D900B87876 /* T2_P_PickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_PickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201366EE21C749D900B87876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201366F021C749D900B87876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201366F321C749D900B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201366F621C749D900B87876 /* T2_P_PickerView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_PickerView.xcdatamodel; sourceTree = "<group>"; };
+		201366F821C749DA00B87876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201366FB21C749DA00B87876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201366FD21C749DA00B87876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2013670121C74AFD00B87876 /* province_city.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = province_city.plist; sourceTree = "<group>"; };
 		20A16D6821C35A5F0076BA47 /* T2_P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A16D6B21C35A5F0076BA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20A16D6D21C35A5F0076BA47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,10 +144,81 @@
 		20A16D7521C35A600076BA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A16D7821C35A600076BA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20A16D7A21C35A600076BA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A16D8421C378550076BA47 /* T2_P_SLIDER_SWITCH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T2_P_SLIDER_SWITCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A16D8621C378550076BA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20A16D8821C378550076BA47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20A16D8B21C378550076BA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20A16D8E21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T2_P_SLIDER_SWITCH.xcdatamodel; sourceTree = "<group>"; };
+		20A16D9021C378560076BA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20A16D9321C378560076BA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20A16D9521C378560076BA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20131AA721C3891600DFC2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013665321C727CC00B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013666C21C72FD100B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013668521C7324100B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013669E21C739A500B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366B721C73D9600B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366D021C745E000B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366E921C749D900B87876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A16D6521C35A5F0076BA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A16D8121C378550076BA47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,10 +228,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20131AAB21C3891600DFC2BF /* T2_P_WKWebview */ = {
+			isa = PBXGroup;
+			children = (
+				20131AAC21C3891600DFC2BF /* AppDelegate.swift */,
+				20131AAE21C3891600DFC2BF /* ViewController.swift */,
+				20131AB021C3891600DFC2BF /* Main.storyboard */,
+				20131AB621C3891600DFC2BF /* Assets.xcassets */,
+				20131AB821C3891600DFC2BF /* LaunchScreen.storyboard */,
+				20131ABB21C3891600DFC2BF /* Info.plist */,
+				20131AB321C3891600DFC2BF /* T2_P_WKWebview.xcdatamodeld */,
+			);
+			path = T2_P_WKWebview;
+			sourceTree = "<group>";
+		};
+		2013665721C727CC00B87876 /* T2_P_AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2013665821C727CC00B87876 /* AppDelegate.swift */,
+				2013665A21C727CC00B87876 /* ViewController.swift */,
+				2013665C21C727CC00B87876 /* Main.storyboard */,
+				2013666221C727CE00B87876 /* Assets.xcassets */,
+				2013666421C727CE00B87876 /* LaunchScreen.storyboard */,
+				2013666721C727CE00B87876 /* Info.plist */,
+				2013665F21C727CC00B87876 /* T2_P_AlertView.xcdatamodeld */,
+			);
+			path = T2_P_AlertView;
+			sourceTree = "<group>";
+		};
+		2013667021C72FD100B87876 /* T2_P_ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				2013667121C72FD100B87876 /* AppDelegate.swift */,
+				2013667321C72FD100B87876 /* ViewController.swift */,
+				2013667521C72FD100B87876 /* Main.storyboard */,
+				2013667B21C72FD200B87876 /* Assets.xcassets */,
+				2013667D21C72FD200B87876 /* LaunchScreen.storyboard */,
+				2013668021C72FD200B87876 /* Info.plist */,
+				2013667821C72FD100B87876 /* T2_P_ActionSheet.xcdatamodeld */,
+			);
+			path = T2_P_ActionSheet;
+			sourceTree = "<group>";
+		};
+		2013668921C7324100B87876 /* T2_P_ActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				2013668A21C7324100B87876 /* AppDelegate.swift */,
+				2013668C21C7324100B87876 /* ViewController.swift */,
+				2013668E21C7324100B87876 /* Main.storyboard */,
+				2013669421C7324200B87876 /* Assets.xcassets */,
+				2013669621C7324200B87876 /* LaunchScreen.storyboard */,
+				2013669921C7324200B87876 /* Info.plist */,
+				2013669121C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodeld */,
+			);
+			path = T2_P_ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		201366A221C739A500B87876 /* T2_p_Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				201366A321C739A500B87876 /* AppDelegate.swift */,
+				201366A521C739A500B87876 /* ViewController.swift */,
+				201366A721C739A500B87876 /* Main.storyboard */,
+				201366AD21C739A700B87876 /* Assets.xcassets */,
+				201366AF21C739A700B87876 /* LaunchScreen.storyboard */,
+				201366B221C739A700B87876 /* Info.plist */,
+				201366AA21C739A500B87876 /* T2_p_Toolbar.xcdatamodeld */,
+			);
+			path = T2_p_Toolbar;
+			sourceTree = "<group>";
+		};
+		201366BB21C73D9600B87876 /* T2_P_NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				201366BC21C73D9600B87876 /* AppDelegate.swift */,
+				201366BE21C73D9600B87876 /* ViewController.swift */,
+				201366C021C73D9600B87876 /* Main.storyboard */,
+				201366C621C73D9700B87876 /* Assets.xcassets */,
+				201366C821C73D9700B87876 /* LaunchScreen.storyboard */,
+				201366CB21C73D9700B87876 /* Info.plist */,
+				201366C321C73D9600B87876 /* T2_P_NavigationBar.xcdatamodeld */,
+			);
+			path = T2_P_NavigationBar;
+			sourceTree = "<group>";
+		};
+		201366D421C745E000B87876 /* T2_P_DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				201366D521C745E000B87876 /* AppDelegate.swift */,
+				201366D721C745E000B87876 /* ViewController.swift */,
+				201366D921C745E000B87876 /* Main.storyboard */,
+				201366DF21C745E100B87876 /* Assets.xcassets */,
+				201366E121C745E100B87876 /* LaunchScreen.storyboard */,
+				201366E421C745E100B87876 /* Info.plist */,
+				201366DC21C745E000B87876 /* T2_P_DatePicker.xcdatamodeld */,
+			);
+			path = T2_P_DatePicker;
+			sourceTree = "<group>";
+		};
+		201366ED21C749D900B87876 /* T2_P_PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				201366EE21C749D900B87876 /* AppDelegate.swift */,
+				201366F021C749D900B87876 /* ViewController.swift */,
+				201366F221C749D900B87876 /* Main.storyboard */,
+				201366F821C749DA00B87876 /* Assets.xcassets */,
+				201366FA21C749DA00B87876 /* LaunchScreen.storyboard */,
+				201366FD21C749DA00B87876 /* Info.plist */,
+				201366F521C749D900B87876 /* T2_P_PickerView.xcdatamodeld */,
+				2013670121C74AFD00B87876 /* province_city.plist */,
+			);
+			path = T2_P_PickerView;
+			sourceTree = "<group>";
+		};
 		20A16D5F21C35A5F0076BA47 = {
 			isa = PBXGroup;
 			children = (
 				20A16D6A21C35A5F0076BA47 /* T2_P */,
+				20A16D8521C378550076BA47 /* T2_P_SLIDER_SWITCH */,
+				20131AAB21C3891600DFC2BF /* T2_P_WKWebview */,
+				2013665721C727CC00B87876 /* T2_P_AlertView */,
+				2013667021C72FD100B87876 /* T2_P_ActionSheet */,
+				2013668921C7324100B87876 /* T2_P_ActivityIndicatorView */,
+				201366A221C739A500B87876 /* T2_p_Toolbar */,
+				201366BB21C73D9600B87876 /* T2_P_NavigationBar */,
+				201366D421C745E000B87876 /* T2_P_DatePicker */,
+				201366ED21C749D900B87876 /* T2_P_PickerView */,
 				20A16D6921C35A5F0076BA47 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +362,15 @@
 			isa = PBXGroup;
 			children = (
 				20A16D6821C35A5F0076BA47 /* T2_P.app */,
+				20A16D8421C378550076BA47 /* T2_P_SLIDER_SWITCH.app */,
+				20131AAA21C3891600DFC2BF /* T2_P_WKWebview.app */,
+				2013665621C727CC00B87876 /* T2_P_AlertView.app */,
+				2013666F21C72FD100B87876 /* T2_P_ActionSheet.app */,
+				2013668821C7324100B87876 /* T2_P_ActivityIndicatorView.app */,
+				201366A121C739A500B87876 /* T2_p_Toolbar.app */,
+				201366BA21C73D9600B87876 /* T2_P_NavigationBar.app */,
+				201366D321C745E000B87876 /* T2_P_DatePicker.app */,
+				201366EC21C749D900B87876 /* T2_P_PickerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +389,159 @@
 			path = T2_P;
 			sourceTree = "<group>";
 		};
+		20A16D8521C378550076BA47 /* T2_P_SLIDER_SWITCH */ = {
+			isa = PBXGroup;
+			children = (
+				20A16D8621C378550076BA47 /* AppDelegate.swift */,
+				20A16D8821C378550076BA47 /* ViewController.swift */,
+				20A16D8A21C378550076BA47 /* Main.storyboard */,
+				20A16D9021C378560076BA47 /* Assets.xcassets */,
+				20A16D9221C378560076BA47 /* LaunchScreen.storyboard */,
+				20A16D9521C378560076BA47 /* Info.plist */,
+				20A16D8D21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodeld */,
+			);
+			path = T2_P_SLIDER_SWITCH;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		20131AA921C3891600DFC2BF /* T2_P_WKWebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20131ABE21C3891600DFC2BF /* Build configuration list for PBXNativeTarget "T2_P_WKWebview" */;
+			buildPhases = (
+				20131AA621C3891600DFC2BF /* Sources */,
+				20131AA721C3891600DFC2BF /* Frameworks */,
+				20131AA821C3891600DFC2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_WKWebview;
+			productName = T2_P_WKWebview;
+			productReference = 20131AAA21C3891600DFC2BF /* T2_P_WKWebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2013665521C727CC00B87876 /* T2_P_AlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2013666A21C727CE00B87876 /* Build configuration list for PBXNativeTarget "T2_P_AlertView" */;
+			buildPhases = (
+				2013665221C727CC00B87876 /* Sources */,
+				2013665321C727CC00B87876 /* Frameworks */,
+				2013665421C727CC00B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_AlertView;
+			productName = T2_P_AlertView;
+			productReference = 2013665621C727CC00B87876 /* T2_P_AlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2013666E21C72FD100B87876 /* T2_P_ActionSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2013668121C72FD200B87876 /* Build configuration list for PBXNativeTarget "T2_P_ActionSheet" */;
+			buildPhases = (
+				2013666B21C72FD100B87876 /* Sources */,
+				2013666C21C72FD100B87876 /* Frameworks */,
+				2013666D21C72FD100B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_ActionSheet;
+			productName = T2_P_ActionSheet;
+			productReference = 2013666F21C72FD100B87876 /* T2_P_ActionSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2013668721C7324100B87876 /* T2_P_ActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2013669A21C7324200B87876 /* Build configuration list for PBXNativeTarget "T2_P_ActivityIndicatorView" */;
+			buildPhases = (
+				2013668421C7324100B87876 /* Sources */,
+				2013668521C7324100B87876 /* Frameworks */,
+				2013668621C7324100B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_ActivityIndicatorView;
+			productName = T2_P_ActivityIndicatorView;
+			productReference = 2013668821C7324100B87876 /* T2_P_ActivityIndicatorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201366A021C739A500B87876 /* T2_p_Toolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201366B321C739A700B87876 /* Build configuration list for PBXNativeTarget "T2_p_Toolbar" */;
+			buildPhases = (
+				2013669D21C739A500B87876 /* Sources */,
+				2013669E21C739A500B87876 /* Frameworks */,
+				2013669F21C739A500B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_p_Toolbar;
+			productName = T2_p_Toolbar;
+			productReference = 201366A121C739A500B87876 /* T2_p_Toolbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201366B921C73D9600B87876 /* T2_P_NavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201366CC21C73D9700B87876 /* Build configuration list for PBXNativeTarget "T2_P_NavigationBar" */;
+			buildPhases = (
+				201366B621C73D9600B87876 /* Sources */,
+				201366B721C73D9600B87876 /* Frameworks */,
+				201366B821C73D9600B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_NavigationBar;
+			productName = T2_P_NavigationBar;
+			productReference = 201366BA21C73D9600B87876 /* T2_P_NavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201366D221C745E000B87876 /* T2_P_DatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201366E521C745E100B87876 /* Build configuration list for PBXNativeTarget "T2_P_DatePicker" */;
+			buildPhases = (
+				201366CF21C745E000B87876 /* Sources */,
+				201366D021C745E000B87876 /* Frameworks */,
+				201366D121C745E000B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_DatePicker;
+			productName = T2_P_DatePicker;
+			productReference = 201366D321C745E000B87876 /* T2_P_DatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201366EB21C749D900B87876 /* T2_P_PickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201366FE21C749DA00B87876 /* Build configuration list for PBXNativeTarget "T2_P_PickerView" */;
+			buildPhases = (
+				201366E821C749D900B87876 /* Sources */,
+				201366E921C749D900B87876 /* Frameworks */,
+				201366EA21C749D900B87876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_PickerView;
+			productName = T2_P_PickerView;
+			productReference = 201366EC21C749D900B87876 /* T2_P_PickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		20A16D6721C35A5F0076BA47 /* T2_P */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20A16D7D21C35A600076BA47 /* Build configuration list for PBXNativeTarget "T2_P" */;
@@ -87,6 +559,23 @@
 			productReference = 20A16D6821C35A5F0076BA47 /* T2_P.app */;
 			productType = "com.apple.product-type.application";
 		};
+		20A16D8321C378550076BA47 /* T2_P_SLIDER_SWITCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A16D9621C378560076BA47 /* Build configuration list for PBXNativeTarget "T2_P_SLIDER_SWITCH" */;
+			buildPhases = (
+				20A16D8021C378550076BA47 /* Sources */,
+				20A16D8121C378550076BA47 /* Frameworks */,
+				20A16D8221C378550076BA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T2_P_SLIDER_SWITCH;
+			productName = T2_P_SLIDER_SWITCH;
+			productReference = 20A16D8421C378550076BA47 /* T2_P_SLIDER_SWITCH.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,7 +586,34 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "wu yuansi";
 				TargetAttributes = {
+					20131AA921C3891600DFC2BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2013665521C727CC00B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2013666E21C72FD100B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2013668721C7324100B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					201366A021C739A500B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					201366B921C73D9600B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					201366D221C745E000B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					201366EB21C749D900B87876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					20A16D6721C35A5F0076BA47 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					20A16D8321C378550076BA47 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -116,11 +632,101 @@
 			projectRoot = "";
 			targets = (
 				20A16D6721C35A5F0076BA47 /* T2_P */,
+				20A16D8321C378550076BA47 /* T2_P_SLIDER_SWITCH */,
+				20131AA921C3891600DFC2BF /* T2_P_WKWebview */,
+				2013665521C727CC00B87876 /* T2_P_AlertView */,
+				2013666E21C72FD100B87876 /* T2_P_ActionSheet */,
+				2013668721C7324100B87876 /* T2_P_ActivityIndicatorView */,
+				201366A021C739A500B87876 /* T2_p_Toolbar */,
+				201366B921C73D9600B87876 /* T2_P_NavigationBar */,
+				201366D221C745E000B87876 /* T2_P_DatePicker */,
+				201366EB21C749D900B87876 /* T2_P_PickerView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20131AA821C3891600DFC2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20131ABA21C3891600DFC2BF /* LaunchScreen.storyboard in Resources */,
+				20131AB721C3891600DFC2BF /* Assets.xcassets in Resources */,
+				20131AB221C3891600DFC2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013665421C727CC00B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013666621C727CE00B87876 /* LaunchScreen.storyboard in Resources */,
+				2013666321C727CE00B87876 /* Assets.xcassets in Resources */,
+				2013665E21C727CC00B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013666D21C72FD100B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013667F21C72FD200B87876 /* LaunchScreen.storyboard in Resources */,
+				2013667C21C72FD200B87876 /* Assets.xcassets in Resources */,
+				2013667721C72FD100B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013668621C7324100B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013669821C7324200B87876 /* LaunchScreen.storyboard in Resources */,
+				2013669521C7324200B87876 /* Assets.xcassets in Resources */,
+				2013669021C7324100B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013669F21C739A500B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366B121C739A700B87876 /* LaunchScreen.storyboard in Resources */,
+				201366AE21C739A700B87876 /* Assets.xcassets in Resources */,
+				201366A921C739A500B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366B821C73D9600B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366CA21C73D9700B87876 /* LaunchScreen.storyboard in Resources */,
+				201366C721C73D9700B87876 /* Assets.xcassets in Resources */,
+				201366C221C73D9600B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366D121C745E000B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366E321C745E100B87876 /* LaunchScreen.storyboard in Resources */,
+				201366E021C745E100B87876 /* Assets.xcassets in Resources */,
+				201366DB21C745E000B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366EA21C749D900B87876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366FC21C749DA00B87876 /* LaunchScreen.storyboard in Resources */,
+				201366F921C749DA00B87876 /* Assets.xcassets in Resources */,
+				2013670221C74AFD00B87876 /* province_city.plist in Resources */,
+				201366F421C749D900B87876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A16D6621C35A5F0076BA47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,9 +737,99 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20A16D8221C378550076BA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A16D9421C378560076BA47 /* LaunchScreen.storyboard in Resources */,
+				20A16D9121C378560076BA47 /* Assets.xcassets in Resources */,
+				20A16D8C21C378550076BA47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20131AA621C3891600DFC2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20131AAF21C3891600DFC2BF /* ViewController.swift in Sources */,
+				20131AB521C3891600DFC2BF /* T2_P_WKWebview.xcdatamodeld in Sources */,
+				20131AAD21C3891600DFC2BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013665221C727CC00B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013666121C727CC00B87876 /* T2_P_AlertView.xcdatamodeld in Sources */,
+				2013665B21C727CC00B87876 /* ViewController.swift in Sources */,
+				2013665921C727CC00B87876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013666B21C72FD100B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013667A21C72FD100B87876 /* T2_P_ActionSheet.xcdatamodeld in Sources */,
+				2013667421C72FD100B87876 /* ViewController.swift in Sources */,
+				2013667221C72FD100B87876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013668421C7324100B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013668D21C7324100B87876 /* ViewController.swift in Sources */,
+				2013669321C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodeld in Sources */,
+				2013668B21C7324100B87876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2013669D21C739A500B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366A621C739A500B87876 /* ViewController.swift in Sources */,
+				201366A421C739A500B87876 /* AppDelegate.swift in Sources */,
+				201366AC21C739A500B87876 /* T2_p_Toolbar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366B621C73D9600B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366BF21C73D9600B87876 /* ViewController.swift in Sources */,
+				201366C521C73D9600B87876 /* T2_P_NavigationBar.xcdatamodeld in Sources */,
+				201366BD21C73D9600B87876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366CF21C745E000B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366DE21C745E000B87876 /* T2_P_DatePicker.xcdatamodeld in Sources */,
+				201366D821C745E000B87876 /* ViewController.swift in Sources */,
+				201366D621C745E000B87876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201366E821C749D900B87876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201366F121C749D900B87876 /* ViewController.swift in Sources */,
+				201366F721C749D900B87876 /* T2_P_PickerView.xcdatamodeld in Sources */,
+				201366EF21C749D900B87876 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A16D6421C35A5F0076BA47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,9 +840,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20A16D8021C378550076BA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A16D8921C378550076BA47 /* ViewController.swift in Sources */,
+				20A16D8F21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodeld in Sources */,
+				20A16D8721C378550076BA47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		20131AB021C3891600DFC2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20131AB121C3891600DFC2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20131AB821C3891600DFC2BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20131AB921C3891600DFC2BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2013665C21C727CC00B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2013665D21C727CC00B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2013666421C727CE00B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2013666521C727CE00B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2013667521C72FD100B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2013667621C72FD100B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2013667D21C72FD200B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2013667E21C72FD200B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2013668E21C7324100B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2013668F21C7324100B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2013669621C7324200B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2013669721C7324200B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		201366A721C739A500B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366A821C739A500B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201366AF21C739A700B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366B021C739A700B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		201366C021C73D9600B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366C121C73D9600B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201366C821C73D9700B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366C921C73D9700B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		201366D921C745E000B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366DA21C745E000B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201366E121C745E100B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366E221C745E100B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		201366F221C749D900B87876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366F321C749D900B87876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201366FA21C749DA00B87876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201366FB21C749DA00B87876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		20A16D6F21C35A5F0076BA47 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -163,9 +997,313 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		20A16D8A21C378550076BA47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A16D8B21C378550076BA47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20A16D9221C378560076BA47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A16D9321C378560076BA47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		20131ABC21C3891600DFC2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_WKWebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-WKWebview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20131ABD21C3891600DFC2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_WKWebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-WKWebview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2013666821C727CE00B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_AlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-AlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2013666921C727CE00B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_AlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-AlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2013668221C72FD200B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_ActionSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-ActionSheet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2013668321C72FD200B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_ActionSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-ActionSheet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2013669B21C7324200B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_ActivityIndicatorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-ActivityIndicatorView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2013669C21C7324200B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_ActivityIndicatorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-ActivityIndicatorView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		201366B421C739A700B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_p_Toolbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-p-Toolbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201366B521C739A700B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_p_Toolbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-p-Toolbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		201366CD21C73D9700B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_NavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-NavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201366CE21C73D9700B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_NavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-NavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		201366E621C745E100B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_DatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-DatePicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201366E721C745E100B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_DatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-DatePicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		201366FF21C749DA00B87876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_PickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-PickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2013670021C749DA00B87876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_PickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-PickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		20A16D7B21C35A600076BA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,9 +1456,117 @@
 			};
 			name = Release;
 		};
+		20A16D9721C378560076BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_SLIDER_SWITCH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-SLIDER-SWITCH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20A16D9821C378560076BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SN89R2CX9;
+				INFOPLIST_FILE = T2_P_SLIDER_SWITCH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.T2-P-SLIDER-SWITCH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20131ABE21C3891600DFC2BF /* Build configuration list for PBXNativeTarget "T2_P_WKWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20131ABC21C3891600DFC2BF /* Debug */,
+				20131ABD21C3891600DFC2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2013666A21C727CE00B87876 /* Build configuration list for PBXNativeTarget "T2_P_AlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2013666821C727CE00B87876 /* Debug */,
+				2013666921C727CE00B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2013668121C72FD200B87876 /* Build configuration list for PBXNativeTarget "T2_P_ActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2013668221C72FD200B87876 /* Debug */,
+				2013668321C72FD200B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2013669A21C7324200B87876 /* Build configuration list for PBXNativeTarget "T2_P_ActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2013669B21C7324200B87876 /* Debug */,
+				2013669C21C7324200B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201366B321C739A700B87876 /* Build configuration list for PBXNativeTarget "T2_p_Toolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201366B421C739A700B87876 /* Debug */,
+				201366B521C739A700B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201366CC21C73D9700B87876 /* Build configuration list for PBXNativeTarget "T2_P_NavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201366CD21C73D9700B87876 /* Debug */,
+				201366CE21C73D9700B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201366E521C745E100B87876 /* Build configuration list for PBXNativeTarget "T2_P_DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201366E621C745E100B87876 /* Debug */,
+				201366E721C745E100B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201366FE21C749DA00B87876 /* Build configuration list for PBXNativeTarget "T2_P_PickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201366FF21C749DA00B87876 /* Debug */,
+				2013670021C749DA00B87876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		20A16D6321C35A5F0076BA47 /* Build configuration list for PBXProject "T2_P" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -339,9 +1585,98 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		20A16D9621C378560076BA47 /* Build configuration list for PBXNativeTarget "T2_P_SLIDER_SWITCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A16D9721C378560076BA47 /* Debug */,
+				20A16D9821C378560076BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		20131AB321C3891600DFC2BF /* T2_P_WKWebview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20131AB421C3891600DFC2BF /* T2_P_WKWebview.xcdatamodel */,
+			);
+			currentVersion = 20131AB421C3891600DFC2BF /* T2_P_WKWebview.xcdatamodel */;
+			path = T2_P_WKWebview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		2013665F21C727CC00B87876 /* T2_P_AlertView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2013666021C727CC00B87876 /* T2_P_AlertView.xcdatamodel */,
+			);
+			currentVersion = 2013666021C727CC00B87876 /* T2_P_AlertView.xcdatamodel */;
+			path = T2_P_AlertView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		2013667821C72FD100B87876 /* T2_P_ActionSheet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2013667921C72FD100B87876 /* T2_P_ActionSheet.xcdatamodel */,
+			);
+			currentVersion = 2013667921C72FD100B87876 /* T2_P_ActionSheet.xcdatamodel */;
+			path = T2_P_ActionSheet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		2013669121C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2013669221C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodel */,
+			);
+			currentVersion = 2013669221C7324100B87876 /* T2_P_ActivityIndicatorView.xcdatamodel */;
+			path = T2_P_ActivityIndicatorView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		201366AA21C739A500B87876 /* T2_p_Toolbar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				201366AB21C739A500B87876 /* T2_p_Toolbar.xcdatamodel */,
+			);
+			currentVersion = 201366AB21C739A500B87876 /* T2_p_Toolbar.xcdatamodel */;
+			path = T2_p_Toolbar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		201366C321C73D9600B87876 /* T2_P_NavigationBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				201366C421C73D9600B87876 /* T2_P_NavigationBar.xcdatamodel */,
+			);
+			currentVersion = 201366C421C73D9600B87876 /* T2_P_NavigationBar.xcdatamodel */;
+			path = T2_P_NavigationBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		201366DC21C745E000B87876 /* T2_P_DatePicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				201366DD21C745E000B87876 /* T2_P_DatePicker.xcdatamodel */,
+			);
+			currentVersion = 201366DD21C745E000B87876 /* T2_P_DatePicker.xcdatamodel */;
+			path = T2_P_DatePicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		201366F521C749D900B87876 /* T2_P_PickerView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				201366F621C749D900B87876 /* T2_P_PickerView.xcdatamodel */,
+			);
+			currentVersion = 201366F621C749D900B87876 /* T2_P_PickerView.xcdatamodel */;
+			path = T2_P_PickerView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		20A16D7221C35A5F0076BA47 /* T2_P.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
@@ -349,6 +1684,16 @@
 			);
 			currentVersion = 20A16D7321C35A5F0076BA47 /* T2_P.xcdatamodel */;
 			path = T2_P.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		20A16D8D21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20A16D8E21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodel */,
+			);
+			currentVersion = 20A16D8E21C378550076BA47 /* T2_P_SLIDER_SWITCH.xcdatamodel */;
+			path = T2_P_SLIDER_SWITCH.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

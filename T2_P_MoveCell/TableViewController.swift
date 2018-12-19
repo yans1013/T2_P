@@ -1,46 +1,70 @@
 //
-//  IndexTableViewController.swift
-//  T2_P_TableView
+//  TableViewController.swift
+//  T2_P_MoveCell
 //
-//  Created by 寺先生 on 2018/12/18.
+//  Created by 寺先生 on 2018/12/19.
 //  Copyright © 2018 wu yuansi. All rights reserved.
 //
 
 import UIKit
 
-class IndexTableViewController: UITableViewController {
-
+class TableViewController: UITableViewController {
+    
+    var listProvinces:NSMutableArray = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.title = "Move Item"
+        
+        
+        //load data
+        self.listProvinces = NSMutableArray(array: ["HN","GD","SX"])
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.listProvinces.count
     }
+    
+    //MARK: -- 设置其编辑格式为none,如果不设置删除图标和重排序图标会同时显示
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .none
+    }
+    
+    //MARK: -- 设置可以移动的cell，直接返回true则为全部
+    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    //MARK: -- 用户拖动cell时触发该方法，对数据进行重新排序
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let itemToMove = self.listProvinces[sourceIndexPath.row] as! String
+        self.listProvinces.removeObject(at: sourceIndexPath.row)
+        self.listProvinces.insert(itemToMove, at: destinationIndexPath.row)
+        
+     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let identifier = "cellIdentifier"
+        let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
+        cell.accessoryType = .none
+        cell.textLabel?.text = self.listProvinces[indexPath.row] as? String
 
         // Configure the cell...
 
         return cell
     }
-    */
+ 
 
     /*
     // Override to support conditional editing of the table view.

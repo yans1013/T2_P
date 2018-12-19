@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  IndexTableView
+//  T2_P_StaticTable
 //
-//  Created by 寺先生 on 2018/12/18.
+//  Created by 寺先生 on 2018/12/19.
 //  Copyright © 2018 wu yuansi. All rights reserved.
 //
 
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "IndexTableView")
+        let container = NSPersistentContainer(name: "T2_P_StaticTable")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

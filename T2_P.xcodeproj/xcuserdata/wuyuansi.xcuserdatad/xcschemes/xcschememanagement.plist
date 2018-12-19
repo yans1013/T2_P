@@ -4,80 +4,190 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IndexTableView.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>14</integer>
-		</dict>
 		<key>T2_P.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>T2_P_ActionSheet.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>T2_P_ActivityIndicatorView.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
-		<key>T2_P_AlertView.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>T2_P_CollectionView.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
-		</dict>
-		<key>T2_P_DatePicker.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
-		</dict>
-		<key>T2_P_FlickrSearch.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>T2_P_FlickrSearcher.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
-		</dict>
-		<key>T2_P_NavigationBar.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>T2_P_PickerView.xcscheme_^#shared#^_</key>
-		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>T2_P_SLIDER_SWITCH.xcscheme_^#shared#^_</key>
+		<key>T2_P_ActionSheet.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>T2_P_TableView.xcscheme_^#shared#^_</key>
+		<key>T2_P_AlertView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>T2_P_CollectionView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>T2_P_DatePicker.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>T2_P_DeleteAddCell.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
-		<key>T2_P_WKWebview.xcscheme_^#shared#^_</key>
+		<key>T2_P_IndexTableView_T 2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>11</integer>
+		</dict>
+		<key>T2_P_IndexTableView_T.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>T2_P_MoveCell.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>T2_P_NavigationBar.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>T2_P_PickerView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>T2_P_StaticTable.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>T2_P_TableView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>T2_P_WKWebview.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>T2_p_Toolbar.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>20131AA921C3891600DFC2BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2013665521C727CC00B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2013666E21C72FD100B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2013668721C7324100B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>201366A021C739A500B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>201366B921C73D9600B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>201366D221C745E000B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>201366EB21C749D900B87876</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>203E6D1021C8E63600D3EE9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204A14F821C7940600482328</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204A152921C894D300482328</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204A154221C8973000482328</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204A156E21C8A43000482328</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2056157F21C9DB5B00460B28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2056159721C9DBB700460B28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20A16D6721C35A5F0076BA47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20A16D8321C378550076BA47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

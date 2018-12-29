@@ -1,0 +1,36 @@
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "7bK-jq-Zjz"; */
+"7bK-jq-Zjz.title" = "Master";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Arm-wq-HPj"; */
+"Arm-wq-HPj.text" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "E22-zq-4cI"; */
+"E22-zq-4cI.text" = "Label";
+
+/* Class = "UIViewController"; title = "Detail"; ObjectID = "JEX-9P-axG"; */
+"JEX-9P-axG.title" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Qig-Xk-cQw"; */
+"Qig-Xk-cQw.title" = "Save";
+
+/* Class = "UINavigationController"; title = "Master"; ObjectID = "RMx-3f-FxP"; */
+"RMx-3f-FxP.title" = "Master";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "V9P-o6-FBK"; */
+"V9P-o6-FBK.title" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "WMl-Ob-t3e"; */
+"WMl-Ob-t3e.title" = "Cancel";
+
+/* Class = "UINavigationItem"; title = "Notebook"; ObjectID = "Zdf-7t-Un8"; */
+"Zdf-7t-Un8.title" = "Notebook";
+
+/* Class = "UITextView"; text = "edit..."; ObjectID = "cDd-EH-I3O"; */
+"cDd-EH-I3O.text" = "edit...";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "mOI-FS-AaM"; */
+"mOI-FS-AaM.title" = "Detail";
+
+/* Class = "UITextView"; text = "..."; ObjectID = "qtb-Ur-k29"; */
+"qtb-Ur-k29.text" = "...";

@@ -1,0 +1,27 @@
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "0kn-4D-tCe"; */
+"0kn-4D-tCe.title" = "保存";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "C1H-SD-X54"; */
+"C1H-SD-X54.text" = "密码";
+
+/* Class = "UILabel"; text = "手机号码"; ObjectID = "Ehs-hP-Zcr"; */
+"Ehs-hP-Zcr.text" = "手机号码";
+
+/* Class = "UINavigationItem"; title = "登陆"; ObjectID = "OvL-jC-kkM"; */
+"OvL-jC-kkM.title" = "登陆";
+
+/* Class = "UILabel"; text = "用户名"; ObjectID = "ch7-OY-9p1"; */
+"ch7-OY-9p1.text" = "用户名";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "fe7-rW-OAO"; */
+"fe7-rW-OAO.title" = "取消";
+
+/* Class = "UINavigationItem"; title = "注册"; ObjectID = "qah-YD-NZ3"; */
+"qah-YD-NZ3.title" = "注册";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "sPj-97-3SC"; */
+"sPj-97-3SC.normalTitle" = "注册";
+
+/* Class = "UIButton"; normalTitle = "登陆"; ObjectID = "yOS-Io-ObE"; */
+"yOS-Io-ObE.normalTitle" = "登陆";

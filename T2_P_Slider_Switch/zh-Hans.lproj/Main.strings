@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "AGI-QU-OFs"; */
+"AGI-QU-OFs.text" = "0";
+
+/* Class = "UILabel"; text = "开关"; ObjectID = "K0o-e5-qwy"; */
+"K0o-e5-qwy.text" = "开关";
+
+/* Class = "UISegmentedControl"; Lrp-Yz-XUT.segmentTitles[0] = "A"; ObjectID = "Lrp-Yz-XUT"; */
+"Lrp-Yz-XUT.segmentTitles[0]" = "A";
+
+/* Class = "UISegmentedControl"; Lrp-Yz-XUT.segmentTitles[1] = "B"; ObjectID = "Lrp-Yz-XUT"; */
+"Lrp-Yz-XUT.segmentTitles[1]" = "B";
+
+/* Class = "UISegmentedControl"; Lrp-Yz-XUT.segmentTitles[2] = "C"; ObjectID = "Lrp-Yz-XUT"; */
+"Lrp-Yz-XUT.segmentTitles[2]" = "C";

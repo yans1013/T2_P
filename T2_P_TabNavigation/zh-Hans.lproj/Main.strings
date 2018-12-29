@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Fur"; ObjectID = "4CD-q0-zS3"; */
+"4CD-q0-zS3.text" = "Fur";
+
+/* Class = "UIViewController"; title = "Agility"; ObjectID = "8rJ-Kc-sve"; */
+"8rJ-Kc-sve.title" = "Agility";
+
+/* Class = "UIViewController"; title = "Strength"; ObjectID = "9pv-A4-QxB"; */
+"9pv-A4-QxB.title" = "Strength";
+
+/* Class = "UITabBarItem"; title = "Magic"; ObjectID = "YYA-Aj-ozG"; */
+"YYA-Aj-ozG.title" = "Magic";
+
+/* Class = "UITabBarItem"; title = "Strength"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Strength";
+
+/* Class = "UITabBarItem"; title = "Agility"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Agility";
+
+/* Class = "UILabel"; text = "Anti-Magic"; ObjectID = "hXy-Pv-Uxw"; */
+"hXy-Pv-Uxw.text" = "Anti-Magic";
+
+/* Class = "UIViewController"; title = "Magic"; ObjectID = "wMX-eg-xO1"; */
+"wMX-eg-xO1.title" = "Magic";
+
+/* Class = "UILabel"; text = "Axe"; ObjectID = "woa-Au-p0g"; */
+"woa-Au-p0g.text" = "Axe";

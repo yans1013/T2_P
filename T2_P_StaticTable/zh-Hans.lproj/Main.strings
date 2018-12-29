@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "登陆"; ObjectID = "0KU-TB-SJQ"; */
+"0KU-TB-SJQ.normalTitle" = "登陆";
+
+/* Class = "UILabel"; text = "创建新账户"; ObjectID = "UFA-Ne-gq4"; */
+"UFA-Ne-gq4.text" = "创建新账户";
+
+/* Class = "UITextField"; placeholder = "用户名"; ObjectID = "fHN-aI-ujw"; */
+"fHN-aI-ujw.placeholder" = "用户名";
+
+/* Class = "UITextField"; placeholder = "密码"; ObjectID = "fnb-7M-BLu"; */
+"fnb-7M-BLu.placeholder" = "密码";
+
+/* Class = "UITableViewSection"; headerTitle = "请输入用户名和密码"; ObjectID = "tSH-jV-dbB"; */
+"tSH-jV-dbB.headerTitle" = "请输入用户名和密码";

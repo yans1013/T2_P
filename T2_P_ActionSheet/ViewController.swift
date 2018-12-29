@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override fun/Users/wuyuansi/Desktop/swift/T2_P/T2_P_ActivityIndicatorView/ViewController.swiftc viewDidLoad() {
+    override viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let screen = UIScreen.main.bounds
